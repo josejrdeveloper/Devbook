@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+  
+body{
+    background-color: #AAC9FF;
+    background-color: #ECF3FF;
+    font-family: "Anta", sans-serif;
+}
+.header-main{
+    margin: 0;
+    height: 90px;
+    background-color: #3b5998;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    color: white;
+    font-size: 25px;
+}
+
+.form-header{
+    display: flex;
+}
+label{
+    margin-left: 15px;
+    font-size: 13px;
+}
+input{
+    
+   padding: 3px;
+}
+.frase-senha{
+    padding-top: 5px;
+    padding-left: 5px;
+}
+button{
+    background-color: #2e4475;
+    width: 70px;
+    height: 30px;
+    padding: 5px;
+    margin: 12px 0 0 11px;
+    border: 0;
+}
