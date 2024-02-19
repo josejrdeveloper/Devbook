@@ -6,9 +6,12 @@
 }
   
 body{
+    height: 100vh;
     background-color: #AAC9FF;
     background-color: #ECF3FF;
     font-family: "Anta", sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 .header-main{
     margin: 0;
@@ -17,6 +20,30 @@ body{
     display: flex;
     justify-content: space-around;
     align-items: center;
+}
+main{
+    width: 100%;
+    height: calc(100vh - 90px);
+    display: flex;
+    
+}
+.section1{
+    flex: 1;
+    
+}
+img{
+    width: 600px;
+    display: block;
+    margin: 20px;
+}
+.cadastro{
+    color: black;
+}
+.section2{
+    flex: 1;
+}
+.section2 h2, .section2 p{
+    color: black;
 }
 .logo{
     color: white;
@@ -45,4 +72,7 @@ button{
     padding: 5px;
     margin: 12px 0 0 11px;
     border: 0;
+}
+.inscreva{
+    width: 200px;
 }
