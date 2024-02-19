@@ -27,8 +27,9 @@ main{
     display: flex;
     
 }
-.section1{
+.section01{
     flex: 1;
+    height: calc(100vh - 90px);
     
 }
 img{
@@ -38,11 +39,26 @@ img{
 }
 .cadastro{
     color: black;
+
 }
-.section2{
+.dados-cadastro{
+    color: black;
+    margin: 7px;
+    padding: 9px;
+    width: 200px;
+    border-radius: 3px;
+    border: 0.5px solid black;
+}
+.email-senha{
+    width: 420px;
+}
+.section02{
     flex: 1;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
 }
-.section2 h2, .section2 p{
+.section02 h2, .section02 p{
     color: black;
 }
 .logo{
@@ -74,5 +90,12 @@ button{
     border: 0;
 }
 .inscreva{
+    display: block;
     width: 200px;
+    margin-left: 7px;
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(8, 162, 8);
+    border-radius: 3px;
 }
