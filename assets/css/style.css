@@ -15,7 +15,7 @@ body{
 }
 .header-main{
     margin: 0;
-    height: 90px;
+    height: 15%;
     background-color: #3b5998;
     display: flex;
     justify-content: space-around;
@@ -23,7 +23,7 @@ body{
 }
 main{
     width: 100%;
-    height: calc(100vh - 90px);
+    height: 70%;
     display: flex;
     
 }
@@ -32,14 +32,23 @@ main{
     height: calc(100vh - 90px);
     
 }
+.p-section01{
+    color: black;
+    text-align: center;
+}
 img{
     width: 600px;
     display: block;
-    margin: 20px;
+    margin: 30px;
+    margin-top: 40px;
 }
 .cadastro{
     color: black;
+    
 
+}
+.cadastro h2, .cadastro p{
+    margin: 7px;
 }
 .dados-cadastro{
     color: black;
@@ -64,10 +73,16 @@ img{
 .logo{
     color: white;
     font-size: 25px;
+    width: 210px;
+    margin-right: 200px;
+}
+.logo h1{
+    margin: 0;
 }
 
 .form-header{
     display: flex;
+    margin-left: 35px;
 }
 label{
     margin-left: 15px;
